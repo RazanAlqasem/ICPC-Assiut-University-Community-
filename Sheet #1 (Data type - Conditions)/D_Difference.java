@@ -4,14 +4,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int A = sc.nextInt();
-        int B = sc.nextInt();
-        int C = sc.nextInt();
-        int D = sc.nextInt();
+        long A = sc.nextLong();
+        long B = sc.nextLong();
+        long C = sc.nextLong();
+        long D = sc.nextLong();
 
-        int X = (A * B) - (C * D);
+        long X = (A * B) - (C * D);
 
         System.out.println("Difference = " + X);
 
+        sc.close();
     }
 }
+
